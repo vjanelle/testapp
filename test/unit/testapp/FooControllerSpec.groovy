@@ -13,6 +13,8 @@ class FooControllerSpec extends Specification {
         assert params != null
         // TODO: Populate valid properties like...
         //params["name"] = 'someValidName'
+        params['name'] = "Test"
+        params['description'] = "A description"
     }
 
     void "Test the index action returns the correct model"() {
